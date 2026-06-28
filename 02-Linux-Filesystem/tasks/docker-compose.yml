@@ -1,0 +1,15 @@
+services:
+  filesystem-lab:
+
+    build:
+      context: .
+
+    container_name: filesystem-lab
+
+    hostname: cloudforge
+
+    stdin_open: true
+
+    tty: true
+
+    restart: "no"

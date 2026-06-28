@@ -1,0 +1,19 @@
+id: 01
+
+title: Lost in the Filesystem
+
+difficulty: Beginner
+
+estimated_time: 30
+
+points: 100
+
+concepts:
+  - Linux Filesystem
+  - Root Directory
+  - Directory Hierarchy
+  - Home Directory
+  - Configuration Files
+  - Temporary Files
+  - Log Files
+  - Hidden Files
