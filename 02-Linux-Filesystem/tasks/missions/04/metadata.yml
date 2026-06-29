@@ -1,0 +1,16 @@
+id: 04
+
+title: The Broken Deployment
+
+difficulty: Advanced
+
+estimated_time: 45
+
+points: 400
+
+concepts:
+  - /opt
+  - /usr/local/bin
+  - Symbolic Links
+  - Third Party Software
+  - Linux Filesystem Hierarchy

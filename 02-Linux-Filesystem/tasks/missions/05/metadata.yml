@@ -1,0 +1,20 @@
+id: 05
+
+title: The Midnight Production Outage
+
+difficulty: Expert
+
+estimated_time: 90
+
+points: 750
+
+concepts:
+  - Linux Filesystem Hierarchy
+  - /etc
+  - /var/log
+  - /tmp
+  - /srv
+  - /opt
+  - /usr/local/bin
+  - Symbolic Links
+  - Troubleshooting
