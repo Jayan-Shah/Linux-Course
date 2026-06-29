@@ -2,8 +2,8 @@
 
 set -e
 
-source /opt/linux-handbook/lab/common.sh
+LAB_HOME="/home/student/lab"
 
-rm -rf "$WORKSPACE"
+rm -rf "$LAB_HOME"/*
 
-rm -f "$CHALLENGE"
+mkdir -p "$LAB_HOME"

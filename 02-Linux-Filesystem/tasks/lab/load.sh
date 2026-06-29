@@ -6,9 +6,18 @@ source /opt/linux-handbook/lab/common.sh
 
 CURRENT=$(cat "$STATE_DIR/current")
 
-bash /opt/linux-handbook/lab/cleanup.sh
+MISSION_DIR="$MISSIONS_DIR/$CURRENT"
 
-bash "$MISSIONS_DIR/$CURRENT/build.sh"
+if [ ! -d "$MISSION_DIR" ]; then
+    echo "Mission $CURRENT not found."
+    exit 1
+fi
+
+echo
+echo "Loading Mission $CURRENT..."
+echo
+
+bash "$MISSION_DIR/build.sh"
 
 echo
 echo "========================================="

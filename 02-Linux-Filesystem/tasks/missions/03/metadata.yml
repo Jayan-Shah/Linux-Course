@@ -1,0 +1,16 @@
+id: 03
+
+title: The Vanishing Reports
+
+difficulty: Intermediate
+
+estimated_time: 45
+
+points: 250
+
+concepts:
+  - /tmp
+  - /srv
+  - Temporary Storage
+  - Persistent Storage
+  - Symbolic Links
