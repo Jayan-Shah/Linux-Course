@@ -1,0 +1,8 @@
+services:
+  mission1:
+    build: .
+    container_name: linux_security_m1
+    command: /bin/bash -c "sleep infinity"
+    # Required for the chattr +i task
+    cap_add:
+      - LINUX_IMMUTABLE
