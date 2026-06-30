@@ -1,0 +1,12 @@
+# Ignore everything first
+*
+
+# Allow only what we need
+!scripts/
+!Dockerfile
+!docker-compose.yml
+!README.md
+
+# Explicitly ignore heavy files if they are in the scripts folder
+scripts/*.c
+*.img
