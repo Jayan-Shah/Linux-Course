@@ -9,7 +9,7 @@ Your objective is to enter the environment, locate the briefing file, and secure
 
 ### How to Play
 1. Start the mission: `docker-compose up -d --build`
-2. Enter the terminal: `docker exec -it linux_security_m1 /bin/bash`
+2. Enter the terminal: `docker exec -it linux_security_range /bin/bash`
 3. Read your briefing: `cat challenge.txt`
 4. **Validation:** When you believe the system is secure, run the validation tool from anywhere: `validate_mission_1`
 

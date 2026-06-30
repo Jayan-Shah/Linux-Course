@@ -1,8 +1,12 @@
 services:
-  mission1:
+  cyber_range:
     build: .
-    container_name: linux_security_m1
+    container_name: linux_security_range
+    # Keeps the container running indefinitely in the background
     command: /bin/bash -c "sleep infinity"
-    # Required for the chattr +i task
+    # CRITICAL: Grants the container permission to edit network rules and attributes
     cap_add:
       - LINUX_IMMUTABLE
+      - NET_ADMIN
+      - NET_RAW
+      - SYS_ADMIN
