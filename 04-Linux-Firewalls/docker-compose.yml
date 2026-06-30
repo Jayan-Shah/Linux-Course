@@ -1,0 +1,8 @@
+services:
+  firewall_range:
+    build: .
+    container_name: linux_firewall_range
+    # Keep the environment running persistently in the background
+    command: /bin/bash -c "sleep infinity"
+    # CRITICAL: Grants the container root capability access to host kernel and device mapping
+    privileged: true
